@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Enlacar los estilos a la estructura -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- referenciar el script al html  -->
+    <script defer src="script/script.js"></script>
+    <!-- Titulo de la página wed -->
+    <title> Prueba tecnica </title>
+</head>
+
+<body>
+    <!-- Encabezado de la página wed -->
+    <header class=" logo ">
+        <!-- para mostrar el logo de la empresa  -->
+        <img src="img/icono-1.png" alt="logo de la empresa ">
+        <!-- Titulo para el encabezado -->
+        <h1>Prueba Técnica</h1>
+    </header>
+    <!-- Contenido de la pagina donde vamos crear el formulario -->
+    <main>
+        <!-- creacion del formulario -->
+        <form id="form-pt">
+
+            <!-- input para el campo del nombre -->
+            <label for="nombre"> Nombre : </label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <!-- input para el campo del correo -->
+            <label for="nombre"> Correo electrónico : </label>
+            <input type="email" id="correo" name="correo" required>
+
+            <!-- input para el campo del area del texto (mensaje) -->
+            <label for="Mensaje"> Mensaje : </label>
+            <textarea name="mmensaje" id="mensaje"></textarea>
+
+            <!-- Boton para enviar la informacion del formulario -->
+            <button type="button" id="submit"> Enviar </button>
+        </form>
+        <!-- ventana o contenedor para mostrar las respuestas -->
+        <div id="respuesta"> </div>
+    </main>
+</body>
+
+</html>
